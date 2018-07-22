@@ -1,7 +1,7 @@
 {
   "name": "bootstrap",
   "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
-  "version": "3.5.0",
+  "version": "3.4.0",
   "keywords": [
     "css",
     "less",
@@ -35,6 +35,7 @@
     "@commitlint/config-conventional": "^7.0.1",
     "btoa": "~1.1.2",
     "commitizen": "^2.10.1",
+    "commitlint-config-cz": "^0.10.0",
     "cz-conventional-changelog": "^2.1.0",
     "cz-customizable": "^5.2.0",
     "ghooks": "^2.0.4",
@@ -96,7 +97,7 @@
   },
   "config": {
     "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
+      "path": "node_modules/cz-customizable"
     },
     "cz-customizable": {
       "config": "./.cz-config.js"
